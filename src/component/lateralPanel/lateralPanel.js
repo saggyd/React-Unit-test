@@ -25,7 +25,7 @@ class LateralPanel extends Component {
                     <button type="button" className="btn btn-default fullW">Create Account</button>  
                     <button type="button" className="btn btn-default fullW">Sign Up</button></li>
                     <li role="separator" className="divider"></li>
-                    <li><a href="#">Forgot Pass</a></li>
+                    <li><a href="javascript:void(0);">Forgot Pass</a></li>
                 </ul>
             </div>
         );

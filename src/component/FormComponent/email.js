@@ -1,6 +1,6 @@
 import React from 'react';
 
-function TextBox(props) {
+function Email(props) {
     return (
         <div className="form-group">
             <label>{props.label}:</label>
@@ -8,4 +8,4 @@ function TextBox(props) {
         </div>
     );
 }
-export default TextBox;
+export default Email;

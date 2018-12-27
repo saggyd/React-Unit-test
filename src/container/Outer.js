@@ -8,8 +8,14 @@ class Outer extends Component {
         return (
             <div>
                 <div className="outerWrapper">
-                    <Sidebar />
-                    <Employee />
+                    <div className="row">
+                        <div className="col-md-3">
+                            <Sidebar />
+                        </div>
+                        <div className="col-md-7">
+                            <Employee />
+                        </div>
+                    </div>  
                 </div>
             </div>
         );

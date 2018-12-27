@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import FormResult from '../result/formResult';
 import TextBox from '../FormComponent/textbox';
+import Email from '../FormComponent/email';
 
 class Employee extends Component {
     constructor(props) {
@@ -31,8 +32,8 @@ class Employee extends Component {
                 <form onSubmit={this.submitHandler}>
                     <TextBox label='First Name' name='fname'/>
                     <TextBox label='Last Name' name='lname'/>
-                    <TextBox label='Email' name='email'/>
-                    <button>Submit</button>
+                    <Email label='Email' name='email'/>
+                    <button type="submit" className="btn btn-primary">Submit</button>
                 </form>
                 <FormResult  value ={this.state} />
             </div>

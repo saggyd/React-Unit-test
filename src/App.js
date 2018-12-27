@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Header from './component/header/header';
 
@@ -11,7 +10,6 @@ class App extends Component {
       <div className="App Wrapper">
         <Header />
         <div className="container">
-          
           <Outer />
         </div>
       </div>
